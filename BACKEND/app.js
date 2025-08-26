@@ -35,7 +35,7 @@ app.use(errorHandler)
 // the below code is added by me for backend deployment.
 app.get("/",(req, res,next)=>{return res.status(200).json({
     success: true,
-    message : "hello world"
+    message : "hello world ka hal cal"
 
 })})
 
